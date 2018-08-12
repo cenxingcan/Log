@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <PreferenceCategory
+        android:persistent="true"
+        android:title="@string/APLog"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <android.preference.SwitchPreference
+        android:key="setaplog"
+        android:persistent="true"
+        android:summary="@string/APLog_Summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/APLog" />
+
+    <SwitchPreference
+        android:key="settcpdumplog"
+        android:persistent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:summary="@string/tcpdumplog_Summary"
+        android:title="@string/tcpdumplog" />
+
+    <PreferenceScreen
+        android:key="button_clear_aplog"
+        android:persistent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:summary="@string/clear_ap_log_summary"
+        android:title="@string/clear_ap_log" />
+
+    <PreferenceCategory
+        android:persistent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/ModemLog" />
+
+    <SwitchPreference
+        android:key="setmodemlog"
+        android:persistent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:summary="@string/ModemLog_Summary"
+        android:title="@string/ModemLog" />
+
+    <ListPreference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:dialogTitle="@string/config_mask"
+        android:entries="@array/config_modem_log_mask_list_entries"
+        android:entryValues="@array/config_modem_log_mask_list_entries_value"
+        android:key="button_config_modem_log_mask"
+        android:persistent="true"
+        android:summary="@string/config_modem_log_mask_summary"
+        android:title="@string/press_to_config_modem_log_mask" />
+
+    <PreferenceScreen
+        android:key="button_mv_modemlog_to_extsdcard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:persistent="true"
+        android:summary="@string/mv_modemlog_to_extsdcard_summary"
+        android:title="@string/mv_modemlog_to_extsdcard" />
+
+    <PreferenceScreen
+        android:key="button_clear_modemlog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:persistent="true"
+        android:summary="@string/clear_modem_log_summary"
+        android:title="@string/clear_modem_log" />
+
+    <PreferenceCategory
+        android:persistent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/Others" />
+
+    <PreferenceScreen
+        android:key="about_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:persistent="true"
+        android:title="@string/about_app" />
+
+    <SwitchPreference
+        android:key="bugreport_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:persistent="true"
+        android:summary="@string/bugreport_state"
+        android:title="@string/bugreport" />
+</PreferenceScreen>

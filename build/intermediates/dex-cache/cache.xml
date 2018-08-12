@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\work\google_code\Setlog\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="E:\work\google_code\Setlog\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9ca1f7e67ba22e9c8efeda10dc88e737cd0b0007\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\work\google_code\Setlog\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a37be443e3516ef38ca9504e99223a7f2e5b55e2">
+        <dex dex="E:\work\google_code\Setlog\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_f93a4776d1a093b18b3e7c0148fdd73b9d3a8b06\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="config_modem_log_mask_list_entries">
+        <item>默认配置</item>
+        <item>C+G</item>
+        <item>W+G</item>
+        <item>T+G</item>
+        <item>LTE</item>
+        <item>UIM/SIM</item>
+        <item>数据业务</item>
+        <item>GPS</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="config_modem_log_mask_list_entries_value">
+        <item>DEFAULT</item>
+        <item>C_G</item>
+        <item>W_G</item>
+        <item>T_G</item>
+        <item>LTE</item>
+        <item>UIM_SIM</item>
+        <item>DATA</item>
+        <item>GPS</item>
+        <item>CUSTOM</item>
+    </string-array>
+    <string-array name="config_storelog_location_entries">
+        <item>内置存储卡</item>
+        <item>外置存储卡</item>
+    </string-array>
+    <string-array name="config_storelog_location_entries_value">
+        <item>Internal_SDCard</item>
+        <item>External_SDCard</item>
+    </string-array>
+</resources>
